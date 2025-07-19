@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+
+@media (max-width: 768px) {
+            .resume-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .left-column {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .right-column {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.certificate {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    font-family: new roman times,serif;
+    margin: 0;
+    padding: 0;
+    background-image:url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.resume-container {
+     display: flex;
+     flex-direction: row;
+     background: white;
+}
+
+.left-column {
+     width: 40%;
+     padding: 20px;
+}
+
+.left-column img {
+     width: 100%;
+     height: auto;
+     border-radius: 20%;
+     margin-top: 25%;
+}
+
+.right-column {
+     width: 60%;
+     padding: 30px;
+}
+
+p,th,td,li {
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+header {
+    border-bottom: 3px dotted black;
+    text-align: center;
+    background-image: url('images/bg5.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    overflow: hidden;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.project {
+    background: #eee;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.project h2 {
+    margin: 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ayush Pansare</h1>
+        <p>Web Developer | Programmer | Designer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificate">Certificate</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+<div class="resume-container">
+        <div class="left-column">
+        <img src="images/Ayush24.jpg" alt="Profile Picture">
+        </div>
+        <div class="right-column">
+        <h2>About Me</h2>
+        <p>About Me
+I am a passionate C programmer with a strong foundation in software development, problem-solving, and system design. I specialize in writing efficient, structured, and optimized code for various applications. My expertise includes algorithm development, data structures, and low-level programming, making me adept at building high-performance solutions.<br><br>
+I have worked on projects like a Food Menu Card System in C, focusing on real-world applications and user-friendly designs. I am always eager to learn new technologies and improve my coding skills. My portfolio showcases my projects, skills, and experience, reflecting my commitment to continuous growth and innovation.
+</p>
+</div>
+</div>
+<h2>Education</h2>
+        <p><strong>Qualification:</strong></p> 
+        <table>
+            <tr>
+                <th>Class</th>
+                <th>Institute/School</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>10<sup>th</sup> SSC</td>
+                <td>St. Francis De Sales School</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Diploma in AIML (MSBTE)</td>
+                <td>AISSMS Polytechnic</td>
+                <td>2024</td>
+            </tr>
+        </table>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming</li>
+            <li>Web Development</li>
+            <li>Coding and Development</li>
+            <li>Machine Learning and Training</li>
+            <li>Data Analysis</li>
+        </ul>
+
+        <h2>Internship</h2>
+        <p><strong>Company:</strong> ABU Tech Solution</p>
+        <p><strong>Duration:</strong> 3 Months</p>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>C Programming (Google, Simplilearn)</li>
+            <li>Basic AI (Google, Simplilearn, Infosys Springboard)</li>
+            <li>Web Development (Google, Simplilearn, Great Learning, Infosys Springboard)</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul>
+            <li>Marathi</li>
+            <li>Hindi</li>
+            <li>English</li>
+        </ul>
+
+        <h2>Interests</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Math</li>
+            <li>Reading & Writing</li>
+            <li>Research</li>
+            <li>Board Games</li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h2>Food Menu Card System (C Language)</h2>
+            <p>A <b>C-based food menu system</b> allowing users to browse and order food items. Features include file handling and a simple user interface.</p>
+            <a href="https://github.com/ayush212op/menu-items">View Code</a>
+        </div>
+
+        <div class="project">
+            <h2>Resume Website (HTML & CSS)</h2>
+            <p>A <b>simple, responsive Resume</b> showcasing my work, built using only HTML and CSS (No JavaScript).</p>
+            <a href="resume from ayush.html">View Code</a>
+        </div>
+
+        <div class="project">
+            <h2>Responsive Blog Page (HTML & CSS)</h2>
+            <p>A **blog layout** with a clean design, fully responsive, and easy to modify for personal use.</p>
+            <a href="#">View Code</a>
+    </section>
+
+<body>
+    <section id="certificate">
+    <h2>My Certificates</h2>
+
+    <div class="certificates-container">
+        <div class="certificate">
+            <h3>Certificate 1</h3>
+            <iframe src="certificates/Simplilearn Certificate HTML.pdf"></iframe>
+        </div>
+        
+        <div class="certificate">
+            <h3>Certificate 2</h3>
+            <iframe src="certificates/Simplilearn CertificateCss.pdf"></iframe>
+        </div>
+        
+        <div class="certificate">
+            <h3>Certificate 3</h3>
+            <iframe src="certificates/Simplilearn CertificateC.pdf"></iframe>
+        </div>
+        
+        <div class="certificate">
+            <h3>Certificate 4</h3>
+            <iframe src="certificates/certificate_67e18ae68e889.pdf"></iframe>
+        </div>
+    </div>
+</section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:ayushpansare30@gmail.com">ayushpansare30@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/ayush212op">https://github.com/ayush212op</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Ayush pansare. All rights reserved.</p>
+    </footer>
+</body>
+</html>

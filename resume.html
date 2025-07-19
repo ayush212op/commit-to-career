@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Times New Roman", serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('images/bg5.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 20px;
+        }
+
+        .resume-container {
+            display: flex;
+            flex-direction: row;
+            width: 65%;
+            max-width: 900px;
+            background: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Left Sidebar */
+        .left-column {
+            width: 35%;
+            background: #e8eff5;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .left-column img {
+            width: 80%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 20%;
+            margin-bottom: 15px;
+        }
+
+        .left-column h2 {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .left-column p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        /* Right Content */
+        .right-column {
+            width: 65%;
+            padding: 30px;
+        }
+
+        .right-column h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .right-column h2 {
+            font-size: 30px;
+            margin: 20px 0 10px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        .right-column p, .right-column li, .right-column td, .right-column th {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        th {
+            background: black;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .resume-container {
+                flex-direction: column;
+                width: 90%;
+            }
+
+            .left-column {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .right-column {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <!-- Left Column -->
+    <div class="left-column">
+        <img src="images/Ayush24.jpg" alt="Profile Picture">
+        <h2>Ayush Pansare</h2>
+        <p><strong>Email:</strong> ayushpansare30@gmail.com</p>
+        <p><strong>Contact:</strong> 7558259488</p>
+        <p><strong>DOB:</strong> 30/08/2008</p>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+        <h1>Resume</h1>
+        <h2>Education</h2>
+        <p><strong>Qualification:</strong></p> 
+        <table>
+            <tr>
+                <th>Class</th>
+                <th>Institute/School</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>10<sup>th</sup> SSC</td>
+                <td>St. Francis De Sales School</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Diploma in AIML (MSBTE)</td>
+                <td>AISSMS Polytechnic</td>
+                <td>2024</td>
+            </tr>
+        </table>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming</li>
+            <li>Web Development</li>
+            <li>Coding and Development</li>
+            <li>Machine Learning and Training</li>
+            <li>Data Analysis</li>
+        </ul>
+
+        <h2>Internship</h2>
+        <p><strong>Company:</strong> ABU Tech Solution</p>
+        <p><strong>Duration:</strong> 3 Months</p>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>C Programming (Google, Simplilearn)</li>
+            <li>Basic AI (Google, Simplilearn, Infosys Springboard)</li>
+            <li>Web Development (Google, Simplilearn, Great Learning, Infosys Springboard)</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul>
+            <li>Marathi</li>
+            <li>Hindi</li>
+            <li>English</li>
+        </ul>
+
+        <h2>Interests</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Math</li>
+            <li>Reading & Writing</li>
+            <li>Research</li>
+            <li>Board Games</li>
+        </ul>
+
+        <h2>Why You Should Hire Me</h2>
+        <p>
+            I am a highly motivated and detail-oriented individual with a 
+            strong foundation in technical concepts and problem-solving. 
+            My expertise in programming, AI/ML, and data analysis allows me 
+            to tackle complex challenges efficiently. With hands-on experience 
+            in AIML, I can contribute to innovative solutions and drive results. 
+            My adaptability, analytical mindset, and eagerness to learn make me a 
+            valuable asset to any team, ensuring continuous improvement and technological 
+            advancement.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
